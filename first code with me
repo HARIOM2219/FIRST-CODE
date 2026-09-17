@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+char subject;
+    char scince ;
+    char commerce;
+    float pcm,acc;
+    cout<<"subject=";
+    cin>>subject;
+    cout<<"pcm marks=";
+    cin>> pcm;
+    cout<<"acc marks=";
+    cin>> acc;
+    if (subject==science && pcm>=90 )
+    cout<<"choose aiml";
+    else if (subject==commerce && acc>=90)
+        cout<<"choose CA";
+    else 
+        cout<<"no jobs";
+    return 0;
+}
+                   
