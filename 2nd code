@@ -1,0 +1,34 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+char subject;
+    
+    float pcm,acc;
+    cout<<"subject=";
+    cin>>subject;
+    cout<<"pcm marks=";
+    cin>> pcm;
+    cout<<"acc marks=";
+    cin>> acc;
+    if (subject=='s' && pcm>=90 )
+    cout<<"choose aiml";
+    else if (subject=='c' && acc>=90)
+cout<<"choose CA";
+ else if (subject=='c' && acc>=80)
+ cout<<"choose businessman ";
+ else if (subject=='c' && acc>=70)
+  cout<<"try bcom";
+   else if (subject=='c' && acc>=60)
+       cout<<" just give up bro";
+ else if (subject=='s' && pcm>=80)
+   cout<<" become poilet ";
+else if (subject=='s' && pcm>=70)
+cout<<"teacher could be your chnce ";
+else if (subject=='s' && pcm>=60 )
+cout<< "just giveup bro " ;                    
+    
+ else
+        cout<<"no jobs";
+    return 0;
+}
